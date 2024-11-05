@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749646894413",
+    "project_id": "movinlist-8f9eb",
+    "storage_bucket": "movinlist-8f9eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749646894413:android:5a89019a83a78b21401304",
+        "android_client_info": {
+          "package_name": "br.com.steventung.movinlist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy6UopAO92DbuNummewy4uts7IqFvHOKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
