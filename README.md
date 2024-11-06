@@ -1,30 +1,31 @@
-![Movinlist_logo](https://github.com/user-attachments/assets/2cde0dbe-3fd8-4482-974a-685c8aecf462)
+![Movinlist_capa](https://github.com/user-attachments/assets/063e5b5a-1c58-4688-9410-4ee068501813)
 
 <h1>Descrição do projeto</h1>
 
-O MovinList é um aplicativo que auxilia as pessoas a mobiliar as suas casas. No MovinList é cadastrado os cômodos da casa e para cada cômodo é possível criar uma lista de produtos (móveis, eletrodomésticos, etc...) que precisam ser comprados.  
+O MovinList é um aplicativo que auxilia as pessoas a mobiliar suas casas. No MovinList é cadastrado os cômodos da casa e para cada cômodo, é possível criar uma lista de produtos (móveis, eletrodomésticos, etc.) que precisam ser comprados.  
 
-Além disso, há a possibilidade de marcar quais os produtos da lista que já foram adquiridos e monitorar os gastos financeiros dos produtos que precisam ser comprados e dos que já foram comprados.
+Além disso, há a possibilidade de marcar quais os produtos de sua lista já foram adquiridos. É possível monitorar os gastos financeiros feitos com produtos já comprados e com os que ainda serão comprados.
 
 Outra característica interessante é que o MovinList pode ser acessado em mais de um dispositivo de forma simultânea, possibilitando que profissionais como arquitetos ou decoradores possam mobiliar a casa de forma colaborativa com os seus clientes.
+
 
 <h1>Funcionalidades</h1>
 
 - `Cadastro de usuários`: Realizar cadastro de usuários com e-mail e senha.
   
-- `Autenticação do usuário`: Acessar a conta cadastrada do usuário, assim como todas as informações salvas nela, de forma simultânea através de qualquer dispositivo Android que fizer a autenticação correta de e-mail e senha.
+- `Autenticação do usuário`: Acessar a conta cadastrada do usuário, assim como todas as informações salvas nela, de forma simultânea, através de qualquer dispositivo Android que fizer a autenticação correta de e-mail e senha.
   
 - `Cadastro dos cômodos`: Cadastrar os cômodos da casa que precisam ser mobiliados.
 
-- `Criar lista de produtos pendentes`: Para cada cômodo cadastrado é possível criar uma lista dos produtos que precisam ser comprados, com informações de foto, nome, marca do produto, descrição, preço unitário e quantidade.
+- `Criar lista de produtos pendentes`: Para cada cômodo cadastrado é possível criar uma lista dos produtos que precisam ser comprados. É possível colocar informações como fotos, nomes, marca dos produtos, descrição, preço unitário e quantidades a serem compradas.
 
 - `Criar lista de produtos comprados`: Criar lista de produtos comprados conforme são adquiridos pelo usuário.
 
-- `Edição e remoção de cômodos`: Editar o nome dos cômodos criados e possibilitar remoção deles.
+- `Edição e remoção de cômodos`: Editar o nome dos cômodos criados e removê-los se necessário.
 
-- `Edição e remoção de produtos`: Editar as informações dos produtos criados e possibilitar a remoção deles.
+- `Edição e remoção de produtos`: Editar os produtos criados e removê-los se necessário.
 
-- `Relatório financeiro`: Monitorar os gastos financeiros por cômodo das listas de produtos pendentes, comprados e total.
+- `Relatório financeiro`: Monitorar os gastos financeiros das listas de produtos pendentes, comprados e total.
 
 - `Edição e remoção da conta de usuários`: Editar informações como nome e senha da conta do usuário e permitir a remoção da conta junto com todas as informações salvas nela.
 
@@ -55,7 +56,7 @@ O App foi desenvolvido com as seguintes tecnologias:
 
 - `Hilt`: Injeção de dependência
 - `Jetpack Compose`: Implementação da interface de usuário
-- `ViewModel e uiState`: Gerenciamento de Estados
+- `ViewModel e uiState`: Gerenciamento de Estados de tela
 - `Navigation com NavHost`: Navegações entre telas por grafos hospedados em um NavHost
 - `Coroutines e Flow`: Rodar as operações de forma assíncrona e reativas
 - `Firebase Authentication`: Cadastro e atenticação de usuários no app
@@ -64,3 +65,21 @@ O App foi desenvolvido com as seguintes tecnologias:
 - `CameraX`: Acesso à câmera para captura de fotos
 - `Storage Access Framework (SAF)`: Acesso às fotos do armazenamento compartilhado do dispositivo móvel
        
+<h1>Acesso ao projeto</h1>
+
+Você pode acessar o [código fonte do projeto](https://github.com/StevenMTung/movinlist) ou [baixá-lo](https://github.com/StevenMTung/movinlist/archive/refs/heads/main.zip).
+
+<h1>Abrir e rodar o projeto</h1> 
+
+Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
+
+- `Open an Existing Project` (ou alguma opção similar);
+- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
+- Por fim clique em `OK`.
+
+O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
+
+<h1>Autor</h1>
+
+ [<img loading="lazy" src="https://avatars.githubusercontent.com/u/134224337?v=4" width=115><br><sub>Steven Marc Tung</sub>](https://github.com/StevenMTung)
+| :---: | 
