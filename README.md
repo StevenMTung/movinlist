@@ -28,6 +28,39 @@ Outra característica interessante é que o MovinList pode ser acessado em mais 
 
 - `Edição e remoção da conta de usuários`: Editar informações como nome e senha da conta do usuário e permitir a remoção da conta junto com todas as informações salvas nela.
 
-<h3>Cadastro e autenticação de usuário:</h3>
-![SignUp](https://github.com/user-attachments/assets/520986c4-070a-4a92-8c33-6dc24a452d5e)
+<h3>Cadastro do usuário:</h3>
 
+![SignUp_gif](https://github.com/user-attachments/assets/f7df1e04-7c08-47c2-b0fa-f37502b22813)
+
+<h3>Login do usuário e cadastro de cômodos:</h3>
+
+![SignIn_CreateHouseArea_gif](https://github.com/user-attachments/assets/85d3dbca-4bde-495f-bd56-ba911c211c04)
+
+<h3>Criação da lista de produtos do cômodo Cozinha:</h3>
+
+![CreateProduct_gif](https://github.com/user-attachments/assets/dbb1480e-c7e4-42c0-99dd-d951fd896189)
+
+<h3>Adicionando produtos à lista de produtos comprados:</h3>
+
+![AddProductsToPurchasedList_gif](https://github.com/user-attachments/assets/901e3ba2-e5af-40b0-88dc-fa6fe0709b65)
+
+<h3>Navengando entre as telas de Lista de Produtos Pendentes, Lista de Produtos Comprados, Relatório Financeiro:</h3>
+
+![Navigate_Screens_gif](https://github.com/user-attachments/assets/ba5b5c0d-9754-47d5-8b52-690b89ec2e0c)
+
+
+<h1>Técnicas e tecnologias utilizadas</h1>
+
+O App foi desenvolvido com as seguintes tecnologias:
+
+- `Hilt`: Injeção de dependência
+- `Jetpack Compose`: Implementação da interface de usuário
+- `ViewModel e uiState`: Gerenciamento de Estados
+- `Navigation com NavHost`: Navegações entre telas por grafos hospedados em um NavHost
+- `Coroutines e Flow`: Rodar as operações de forma assíncrona e reativas
+- `Firebase Authentication`: Cadastro e atenticação de usuários no app
+- `Firebase Firestore`: Armazenamento de entidades do app
+- `Firebase Cloud Storage`: Armazenamento de imagens do app
+- `CameraX`: Acesso à câmera para captura de fotos
+- `Storage Access Framework (SAF)`: Acesso às fotos do armazenamento compartilhado do dispositivo móvel
+       
