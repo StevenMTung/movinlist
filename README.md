@@ -64,6 +64,7 @@ O App foi desenvolvido com as seguintes tecnologias:
 - `Firebase Cloud Storage`: Armazenamento de imagens do app
 - `CameraX`: Acesso à câmera para captura de fotos
 - `Storage Access Framework (SAF)`: Acesso às fotos do armazenamento compartilhado do dispositivo móvel
+- `Coil`: Upload de imagens
        
 <h1>Acesso ao projeto</h1>
 
