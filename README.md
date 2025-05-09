@@ -1,86 +1,87 @@
 ![Movinlist_capa](https://github.com/user-attachments/assets/063e5b5a-1c58-4688-9410-4ee068501813)
 
-<h1>Descrição do projeto</h1>
+<h1>Project description</h1>
 
-O MovinList é um aplicativo que auxilia as pessoas a mobiliar suas casas. No MovinList é cadastrado os cômodos da casa e para cada cômodo, é possível criar uma lista de produtos (móveis, eletrodomésticos, etc.) que precisam ser comprados.  
+MovinList is an app that helps people furnish their homes. In MovinList, users can register the rooms of the house, and for each room, they can create a list of products (furniture, appliances, etc.) 
+that need to be purchased.
 
-Além disso, há a possibilidade de marcar quais os produtos de sua lista já foram adquiridos. É possível monitorar os gastos financeiros feitos com produtos já comprados e com os que ainda serão comprados.
+In addition, users can mark which products on their list have already been acquired. It's possible to track financial expenses for both purchased and pending items.
 
-Outra característica interessante é que o MovinList pode ser acessado em mais de um dispositivo de forma simultânea, possibilitando que profissionais como arquitetos ou decoradores possam mobiliar a casa de forma colaborativa com os seus clientes.
+Another interesting feature is that MovinList can be accessed from multiple devices simultaneously, allowing professionals such as architects or interior designers to collaborate with their clients in furnishing the home.
 
 
-<h1>Funcionalidades</h1>
+<h1>Features</h1>
 
-- `Cadastro de usuários`: Realizar cadastro de usuários com e-mail e senha.
+- `Register users`: Register users with email and password.
   
 - `Autenticação do usuário`: Acessar a conta cadastrada do usuário, assim como todas as informações salvas nela, de forma simultânea, através de qualquer dispositivo Android que fizer a autenticação correta de e-mail e senha.
   
-- `Cadastro dos cômodos`: Cadastrar os cômodos da casa que precisam ser mobiliados.
+- `Room registration`: Register the rooms in the house that need to be furnished.
 
-- `Criar lista de produtos pendentes`: Para cada cômodo cadastrado é possível criar uma lista dos produtos que precisam ser comprados. É possível colocar informações como fotos, nomes, marca dos produtos, descrição, preço unitário e quantidades a serem compradas.
+- `Create pending product list`: For each registered room, it is possible to create a list of products that need to be purchased. You can add information such as photos, product names, brand, description, unit price, and quantities to be purchased.
 
-- `Criar lista de produtos comprados`: Criar lista de produtos comprados conforme são adquiridos pelo usuário.
+- `Create purchased product list`: Create a list of purchased products as they are acquired by the user.
 
-- `Edição e remoção de cômodos`: Editar o nome dos cômodos criados e removê-los se necessário.
+- `Edit and remove rooms`: Edit the names of created rooms and remove them if necessary.
 
-- `Edição e remoção de produtos`: Editar os produtos criados e removê-los se necessário.
+- `Edit and remove products`: Edit created products and remove them if necessary.
 
-- `Relatório financeiro`: Monitorar os gastos financeiros das listas de produtos pendentes, comprados e total.
+- `Financial report`: Monitor financial expenses from the pending, purchased, and total product lists.
 
-- `Edição e remoção da conta de usuários`: Editar informações como nome e senha da conta do usuário e permitir a remoção da conta junto com todas as informações salvas nela.
+- `Edit and delete user account`: Edit information such as name and password of the user account, and allow the deletion of the account along with all saved data.
 
-<h3>Cadastro do usuário:</h3>
+<h3>User registration:</h3>
 
 ![SignUp_gif](https://github.com/user-attachments/assets/f7df1e04-7c08-47c2-b0fa-f37502b22813)
 
-<h3>Login do usuário e cadastro de cômodos:</h3>
+<h3>User login and room registration:</h3>
 
 ![SignIn_CreateHouseArea_gif](https://github.com/user-attachments/assets/85d3dbca-4bde-495f-bd56-ba911c211c04)
 
-<h3>Criação da lista de produtos do cômodo Cozinha:</h3>
+<h3>Creation of the product list for the Kitchen:</h3>
 
 ![CreateProduct_gif](https://github.com/user-attachments/assets/dbb1480e-c7e4-42c0-99dd-d951fd896189)
 
-<h3>Adicionando produtos à lista de produtos comprados:</h3>
+<h3>Adding products to the purchased products list:</h3>
 
 ![AddProductsToPurchasedList_gif](https://github.com/user-attachments/assets/901e3ba2-e5af-40b0-88dc-fa6fe0709b65)
 
-<h3>Navengando entre as telas de Lista de Produtos Pendentes, Lista de Produtos Comprados, Relatório Financeiro:</h3>
+<h3>Navigating between the Pending Products List, Purchased Products List, Financial Report screens.</h3>
 
 ![Navigate_Screens_gif](https://github.com/user-attachments/assets/ba5b5c0d-9754-47d5-8b52-690b89ec2e0c)
 
 
-<h1>Técnicas e tecnologias utilizadas</h1>
+<h1>Techniques and technologies used.</h1>
 
-O App foi desenvolvido com as seguintes tecnologias:
+The app was developed with the following technologies:
 
-- `Hilt`: Injeção de dependência
-- `Jetpack Compose`: Implementação da interface de usuário
-- `ViewModel e uiState`: Gerenciamento de Estados de tela
-- `Navigation com NavHost`: Navegações entre telas por grafos hospedados em um NavHost
-- `Coroutines e Flow`: Rodar as operações de forma assíncrona e reativas
-- `Firebase Authentication`: Cadastro e atenticação de usuários no app
-- `Firebase Firestore`: Armazenamento de entidades do app
-- `Firebase Cloud Storage`: Armazenamento de imagens do app
-- `CameraX`: Acesso à câmera para captura de fotos
-- `Storage Access Framework (SAF)`: Acesso às fotos do armazenamento compartilhado do dispositivo móvel
-- `Coil`: Upload de imagens
+- `Hilt`: Dependecy Injection
+- `Jetpack Compose`: User interface implementation
+- `ViewModel e uiState`: Screen state management
+- `Navigation com NavHost`:  Navigation between screens via graphs hosted in a NavHost
+- `Coroutines e Flow`:  Running operations asynchronously and reactively
+- `Firebase Authentication`: User registration and authentication in the app
+- `Firebase Firestore`:  Storing app entities
+- `Firebase Cloud Storage`: Storing app images
+- `CameraX`: Camera access for photo capture
+- `Storage Access Framework (SAF)`: Access to photos from the device's shared storage
+- `Coil`: Image upload
        
-<h1>Acesso ao projeto</h1>
+<h1>Access to the Project</h1>
 
-Você pode acessar o [código fonte do projeto](https://github.com/StevenMTung/movinlist) ou [baixá-lo](https://github.com/StevenMTung/movinlist/archive/refs/heads/main.zip).
+You can access the [project source code](https://github.com/StevenMTung/movinlist) or [download it](https://github.com/StevenMTung/movinlist/archive/refs/heads/main.zip).
 
-<h1>Abrir e rodar o projeto</h1> 
+<h1>Open and Run the Project</h1> 
 
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
+After downloading the project, you can open it with `Android Studio`. To do this, on the launcher screen click on:
 
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
+- `Open an Existing Project` (or a similar option);
+- Find the location where the project is and select it (If the project was downloaded as a zip, you will need to extract it before locating it);
+- Finally, click `OK`.
 
-O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
+`Android Studio` will execute some Gradle tasks to set up the project, wait for them to finish. Once the tasks are completed, you can run the app 🏆 
 
-<h1>Autor</h1>
+<h1>Author</h1>
 
  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/134224337?v=4" width=115><br><sub>Steven Marc Tung</sub>](https://github.com/StevenMTung)
 | :---: | 
